@@ -68,7 +68,7 @@ h6{
   background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
   color: black;
   text-align: center;
-  
+
 
 }
 .Catagories-Container{
@@ -85,7 +85,7 @@ transition: 0.5s;
 .catagories-box:hover{
   transform: scale(1.1);
   z-index: 2;
-  
+
 }
 
 
@@ -131,7 +131,7 @@ background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(23
 .footer{
   background: #000000;
   color:white;
-  
+
   }
 .links{
   text-align: left;
@@ -161,15 +161,19 @@ background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(23
 .about-company a:hover{
      color:#4180CB;
     }
-    
-  
 
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+
+
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);}
 
 @media(max-width: 800px){
   .bang-logo{
     width: 600px;
   }
+  #best-deals{
+  display: flex;
+  text-align: center;
+}
 .deals-text{
   padding-bottom: 20px;
 }
@@ -179,7 +183,7 @@ background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(23
   }
 .Catagories-Container{
   justify-content: center;
-  
+
 }
   .catagories-box{
     padding: 10px;
@@ -201,6 +205,11 @@ width: 450px;
   h3 h4{
 font-size: 10px;
   }
+
+  #best-deals{
+    display: flex;
+    text-align: center;
+  }
 .deals-text{
   padding-bottom: 20px;
 }
@@ -210,7 +219,7 @@ font-size: 10px;
   }
 .Catagories-Container{
   justify-content: center;
-  
+
 }
   .catagories-box{
     padding: 10px;
