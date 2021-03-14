@@ -1,6 +1,9 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  
+
   font-family: 'Noto Sans KR', sans-serif;
   background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
 }
@@ -45,7 +48,7 @@ color: rgb(0, 0, 0);
 .footer{
   background: #000000;
   color:white;
-  
+
   }
 .links{
   text-align: left;
@@ -71,7 +74,7 @@ color: rgb(0, 0, 0);
 .about-company a:hover{
      color:#4180CB;
     }
-    
-  
 
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+
+
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);}

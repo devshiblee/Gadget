@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
     font-family: 'Noto Sans KR', sans-serif;
     background-color: #ffeff4;
@@ -23,7 +26,7 @@ body{
 .deals-box{
     padding: 30px;
     text-align: center;
-  
+
   transition: 0.5s;
   }
   .deals-box:hover{
@@ -36,7 +39,7 @@ body{
 .footer{
   background: #000000;
   color:white;
-  
+
   }
 .links{
   text-align: left;
@@ -53,9 +56,6 @@ body{
   color:#4180CB;
 }
 
-
-
-
 .about-company{
     text-align: left;
   }
@@ -66,7 +66,5 @@ body{
 .about-company a:hover{
      color:#4180CB;
     }
-    
-  
 
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);}
